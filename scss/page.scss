@@ -7,10 +7,22 @@ body._lock {
 }
 .page__section {
   margin: 0 auto;
+  padding: 60px 0 30px;
 }
 
-.page__section_2 {
-  background-color: #fff;
-  color: #000;
+.page__title {
+  position: relative;
+  font-size: calc(20px + 20 * (100vw / 1920));
+  margin-bottom: 10px;
+  &::after {
+    margin-left: 100px;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: $color;
+    position: absolute;
+    left: 18%;
+    bottom: 50%;
+    transform: translate(-50%);
+  }
 }
-
