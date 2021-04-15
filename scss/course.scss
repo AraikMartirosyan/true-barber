@@ -1,0 +1,84 @@
+.course {
+  color: black;
+  &__title {
+    font-size: calc(14px + 12 * (100vw / 1920));
+    line-height: 22px;
+    margin-bottom: 16px;
+    position: relative;
+    margin-left: 50px;
+
+    &::before {
+      content: "";
+      border-bottom: 2px solid $color;
+      width: 40px;
+      height: 1px;
+      position: absolute;
+      top: 50%;
+      margin-left: -50px;
+    }
+    &::after {
+      content: "";
+      border-bottom: 2px solid $color;
+      width: 40px;
+      height: 1px;
+      position: absolute;
+      top: 50%;
+      margin-left: 10px;
+    }
+  }
+  &__text {
+    letter-spacing: 1px;
+    font-size: 1em;
+  }
+  &__list {
+
+    li {
+      position: relative;
+      padding: 20px 0 10px 30px;
+      cursor: pointer;
+      &::before {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: $color;
+        content: "";
+        left: 0;
+        transition: 0.3s ease-in-out;
+        top: 27px;
+      }
+      &::after {
+        position: absolute;
+        border-left: 1px dotted $color;
+        width: 1px;
+        bottom: -12px;
+        content: "";
+        left: 3px;
+        top: 48px;
+      }
+      &:hover::before {
+        box-shadow: 0 0 0 10px rgba(201, 161, 33, 0.418);
+      }
+      &:last-child:after {
+        content: none;
+      }
+    }
+  }
+  &__btn {
+      display: block;
+      max-width: 148px;
+    text-transform: uppercase;
+    color: black;
+    background-color: $yellow;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: .33em;
+    text-align: center;
+    margin-left: 1em;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: darken($yellow, 7);
+    }
+  }
+}

@@ -2,24 +2,24 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 37vh;
+  padding-top: 40vh;
   min-height: 100vh;
   background-image: url("../img/trueBarber.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  // background-attachment: fixed;
   &__inner {
-    .intro__inner-title {
+    &-title {
       font-size: calc(28px + 36 * (100vw / 1920));
       line-height: 130%;
       margin-bottom: 10px;
     }
-    .intro__inner-subtitle {
+    &-subtitle {
       font-size: calc(14px + 10 * (100vw / 1920));
       margin-bottom: 56px;
     }
-    .intro__inner-btn {
+    &-btn {
       text-transform: uppercase;
       color: #fff;
       background-color: $red;
@@ -62,7 +62,6 @@
 @media (max-width: 992px) {
   .intro {
     text-align: center;
-    padding-top: 300px;
     &__footer-info {
       margin-top: 20px;
     }
@@ -71,9 +70,9 @@
 
 @media (max-width: 767px) {
   .intro {
-    padding-top: 200px;
     &__inner-title {
-      font-size: calc(24px + (36 + 36 * 0.7) * ((100vw-320px) / 1920));
+      margin-bottom: 14px;
+      font-size: calc(16px + (36 + 36 * 0.7) * ((100vw-320px) / 1920));
     }
     &__inner-subtitle {
       font-size: calc(14px + (10 + 10 * 0.7) * ((100vw-320px) / 1920));
@@ -83,23 +82,40 @@
       padding: 2px 0;
       &-info {
         font-size: 12px;
-        margin: 8px 0;
+        margin: 5px 0;
         img {
-            width: 24px;
+          width: 24px;
         }
       }
     }
   }
 }
 @media (max-width: 576px) {
-    .intro {
-      padding-top: 120px;
-      &__footer {
+  .intro {
+    &__footer {
       border: none;
-      }
     }
-    .intro__inner-btn {
-        font-size: 15px;
-        padding: 10px 14px;
+    &__inner-btn {
+      font-size: 16px;
+      padding: 12px 12px;
     }
   }
+  
+}
+
+
+@media (max-height: 992px) {
+  .intro {
+    padding-top: 290px;
+  }
+}
+@media (max-height: 767px) {
+  .intro {
+    padding-top: 30vh;
+  }
+}
+@media (max-height: 576px) {
+  .intro {
+    padding-top: 130px;
+  }
+}

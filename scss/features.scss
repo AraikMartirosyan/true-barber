@@ -1,0 +1,55 @@
+.features {
+  background-color: $dark;
+  padding: 40px 0;
+  &__item {
+    &-title {
+      font-size: 20px;
+      margin-bottom: 2%;
+    }
+    &-text {
+      font-size: 14px;
+    }
+    &-border {
+      padding: 0 10%;
+      border-left: 1px solid $color;
+      border-right: 1px solid $color;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .features {
+    &__item {
+      &-title {
+        font-size: 15px;
+      }
+      &-text {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .features {
+    background-color: #333;
+    padding: 10px 0;
+    &__item {
+      padding: 20px 0;
+      &-title {
+        font-size: 20px;
+      }
+      &-text {
+        font-size: 12px;
+      }
+      &-border {
+        border-bottom: 1px solid $color;
+        border-top: 1px solid $color;
+        padding-left: 0;
+        padding-right: 0;
+        border-left: none;
+        border-right: none;
+      }
+    }
+  }
+}

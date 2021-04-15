@@ -2,6 +2,7 @@
 $color: #dab05d;
 $yellow: #f7d315;
 $red: #e02525;
+$dark: #333;
 
 $font: "Montserrat", "Calibri", sans-serif;
 
@@ -9,6 +10,8 @@ $font: "Montserrat", "Calibri", sans-serif;
 @import "page";
 @import "intro";
 @import "about";
+@import "features";
+@import "course";
 
 @font-face {
   font-family: "Montserrat";
@@ -75,7 +78,7 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.6;
   font-family: $font;
   font-size: 16px;
   color: #fff;
