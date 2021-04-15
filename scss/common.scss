@@ -1,7 +1,7 @@
 // variables
 $color: #dab05d;
 $yellow: #f7d315;
-$red: #e02525;
+$red: #a21919;
 $dark: #333;
 
 $font: "Montserrat", "Calibri", sans-serif;
@@ -12,6 +12,7 @@ $font: "Montserrat", "Calibri", sans-serif;
 @import "about";
 @import "features";
 @import "course";
+@import "contacts";
 
 @font-face {
   font-family: "Montserrat";
