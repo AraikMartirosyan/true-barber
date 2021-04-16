@@ -4,10 +4,11 @@ body._lock {
 .wrapper {
   min-height: 100%;
   color: #fff;
+  overflow: hidden;
 }
 .page__section {
   margin: 0 auto;
-  padding: 50px 0 10px;
+  padding: 50px 0 20px;
 }
 
 .page__title {
@@ -15,7 +16,7 @@ body._lock {
   position: relative;
   font-size: calc(20px + 20 * (100vw / 1920));
   margin-bottom: 10px;
-  
+
   &::after {
     content: "";
     border-bottom: 2px solid $color;

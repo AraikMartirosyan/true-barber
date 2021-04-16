@@ -13,10 +13,13 @@
   }
 }
 
-@media (max-width: 992px) {
+
+
+@media (max-width: 767px) {
   .about {
-    &__content {
-      padding-top: 30px;
+    &__img{
+      order: 1;
+      margin-top: 20px;
     }
   }
 }

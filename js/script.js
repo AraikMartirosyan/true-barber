@@ -86,13 +86,23 @@ if (menuLinks.length > 0) {
   }
 }
 
-
-document.onscroll = () =>  {
+document.onscroll = () => {
   if (window.pageYOffset) {
-    stiky.classList.add('stiky')
-  }
-  else {
-    stiky.classList.remove('stiky')
-
+    stiky.classList.add("stiky");
+  } else {
+    stiky.classList.remove("stiky");
   }
 };
+
+$(document).ready(function () {
+  $(".gallery__wrapper").slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveWidth: true,
+    adaptiveHeight: true,
+  });
+});
+
