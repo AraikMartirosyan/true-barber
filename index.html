@@ -27,22 +27,38 @@
               <nav class="menu__body">
                 <ul class="menu__list">
                   <li>
-                    <a data-goto=".about" href="#" class="menu__link">о нас</a>
+                    <a
+                      data-goto=".about"
+                      href="#"
+                      class="menu__link lng-about"
+                    ></a>
                   </li>
                   <li>
-                    <a data-goto=".course" href="#" class="menu__link">курсы</a>
+                    <a
+                      data-goto=".course"
+                      href="#"
+                      class="menu__link lng-cource"
+                    ></a>
                   </li>
                   <li>
-                    <a data-goto=".contacts" href="#" class="menu__link"
-                      >контакты</a
-                    >
+                    <a
+                      data-goto=".contacts"
+                      href="#"
+                      class="menu__link lng-contacts"
+                    ></a>
                   </li>
                   <li>
-                    <a data-goto=".gallery" href="#" class="menu__link"
-                      >галерея</a
-                    >
+                    <a
+                      data-goto=".gallery"
+                      href="#"
+                      class="menu__link lng-gallery"
+                    ></a>
                   </li>
-                  <a href="#" class="menu__btn"> записаться моделью </a>
+                  <a href="#" class="menu__btn lng-model"></a>
+                  <select class="language" name="language" id="">
+                    <option value="uz">UZ</option>
+                    <option value="ru">RU</option>
+                  </select>
                 </ul>
               </nav>
             </div>
@@ -53,23 +69,19 @@
       <main class="page">
         <section class="intro">
           <div class="intro__inner container">
-            <h1 class="intro__inner-title">
-              Курсы барберинга <br />
-              в Ташкенте
-            </h1>
-            <h3 class="intro__inner-subtitle">
-              Отличная возможность получить <br />
-              востребованную профессию и приступить к работе
-            </h3>
-            <a href="#contacts" data-goto=".contacts" class="intro__inner-btn"
-              >записаться на курсы</a
-            >
+            <h1 class="intro__inner-title lng-title"></h1>
+            <h3 class="intro__inner-subtitle lng-subtitle"></h3>
+            <a
+              href="#contacts"
+              data-goto=".contacts"
+              class="intro__inner-btn lng-titlebtn"
+            ></a>
           </div>
           <div class="container">
             <div class="intro__footer row">
               <div class="intro__footer-info col-sm-4 col-lg-4">
                 <img src="img/icons/location.svg" alt="" />
-                <span>Ташкент, улица М. Гафурова, 16/1 </span>
+                <span class="lng-undadres"></span>
               </div>
               <div class="intro__footer-info col-sm-4 col-lg-4">
                 <img src="img/icons/phone.svg" alt="" />
@@ -77,7 +89,7 @@
               </div>
               <div class="intro__footer-info col-sm-4 col-lg-4">
                 <img src="img/icons/calendar.svg" alt="" />
-                <span>ПН-СБ 10:00-19:00</span>
+                <span class="lng-undrej"></span>
               </div>
             </div>
           </div>
@@ -89,18 +101,10 @@
               <img src="img/about.jpg" alt="" />
             </div>
             <div class="about__content col-sm-12 col-md-6">
-              <h2 class="page__title">О НАС</h2>
-              <p class="about__text">
-                Мы - академия по обучению барберов, удостоенная наград. Мы
-                стремимся к тому, чтобы наши студенты уходили с уверенностью в
-                приобретенных навыках.
-              </p>
+              <h2 class="page__title lng-aboutitl"></h2>
+              <p class="about__text lng-aboutt1"></p>
               <br />
-              <p>
-                Наши курсы барбера и бритья помогут вам получить базовые знания
-                в области парикмахерского искусства, проанализировать каждый
-                шаг, усовершенствовать технику и повысить скорость стрижки.
-              </p>
+              <p class="lng-aboutt2"></p>
             </div>
           </div>
         </section>
@@ -110,29 +114,20 @@
             <div class="row">
               <div class="col-sm-12 col-md-4">
                 <div class="features__item">
-                  <h4 class="features__item-title">Профессионализм</h4>
-                  <p class="features__item-text">
-                    Вы будете владеть мировыми и авторскими техниками мужских
-                    стрижек и оформления бороды
-                  </p>
+                  <h4 class="features__item-title lng-fea1tit"></h4>
+                  <p class="features__item-text lng-fea1tex"></p>
                 </div>
               </div>
               <div class="col-sm-12 col-md-4">
                 <div class="features__item features__item-border">
-                  <h4 class="features__item-title">Мы предоставляем</h4>
-                  <p class="features__item-text">
-                    Профессионально оборудованное место, расходные материалы и
-                    моделей для обучения
-                  </p>
+                  <h4 class="features__item-title lng-fea2tit"></h4>
+                  <p class="features__item-text lng-fea2tex"></p>
                 </div>
               </div>
               <div class="col-sm-12 col-md-4">
                 <div class="features__item">
-                  <h4 class="features__item-title">Практика</h4>
-                  <p class="features__item-text">
-                    80% обучения - практика на моделях. Никаких скучных лекций и
-                    болванок, работа на живых моделях.
-                  </p>
+                  <h4 class="features__item-title lng-fea3tit"></h4>
+                  <p class="features__item-text lng-fea3tex"></p>
                 </div>
               </div>
             </div>
@@ -143,16 +138,8 @@
           <div class="container">
             <div class="row align-items-center">
               <div class="col-xl-6 col-sm-12 pb-4">
-                <h2 class="page__title">Курсы</h2>
-                <p class="course__text">
-                  Курсы от TRUE BARBER специально разработаны для обучения
-                  современным и традиционным навыкам барбера. Наши курсы
-                  идеально подходят для тех, кто практически не имеет опыта
-                  стрижки волос и хочет почувствовать, как может выглядеть их
-                  карьера барбера, а также взглянуть на различные техники, стили
-                  и тенденции. в мужских волосах. Мы приветствуем всех желающих!
-                  Свяжитесь c нами сегодня!
-                </p>
+                <h2 class="page__title lng-kurtit"></h2>
+                <p class="course__text lng-kurtex"></p>
               </div>
               <div class="col-xl-6 col-sm-12 pb-4">
                 <img src="./img/course.jpg" alt="" />
@@ -164,16 +151,16 @@
                 <img src="./img/course-2.jpg" alt="" />
               </div>
               <div class="col-xl-6 col-sm-12">
-                <h3 class="course__title text">Преимущества курса</h3>
+                <h3 class="course__title text lng-pretit"></h3>
                 <ul class="course__list pb-3">
-                  <li>Научим стричь, брить;</li>
-                  <li>Научим как общаться с клиентами;</li>
-                  <li>Практика на моделях;</li>
-                  <li>Получите диплом от нашей академии;</li>
-                  <li>Станете профессионалом.</li>
+                  <li class="lng-pretit1"></li>
+                  <li class="lng-pretit2"></li>
+                  <li class="lng-pretit3"></li>
+                  <li class="lng-pretit4"></li>
+                  <li class="lng-pretit5"></li>
                 </ul>
-                <a data-goto=".contacts" href="#" class="course__btn mb-2"
-                  >записаться</a
+                <a data-goto=".contacts" href="#" class="course__btn mb-2 lng-pretitb"
+                  ></a
                 >
               </div>
             </div>
@@ -194,7 +181,7 @@
                 ></iframe>
               </div>
               <div class="col-md-6">
-                <h2 class="page__title">КОНТАКТЫ</h2>
+                <h2 class="page__title lng-contit">КОНТАКТЫ</h2>
                 <div class="contacts__item">
                   <div class="contacts__item-icon">
                     <img
@@ -203,7 +190,9 @@
                     />
                   </div>
                   <div class="contacts__item-text">
-                    <a href="https://goo.gl/maps/xW5SR4PjbeVW21UHA"
+                    <a
+                      class="lng-undadres2"
+                      href="https://goo.gl/maps/xW5SR4PjbeVW21UHA"
                       >Ташкент, улица М. Гафурова, 16/1</a
                     >
                   </div>
@@ -228,7 +217,9 @@
                   <div class="contacts__item-icon">
                     <img src="./img/icons/calendar.svg" alt="" />
                   </div>
-                  <div class="contacts__item-text">ПН-СБ 10:00-19:00</div>
+                  <div class="contacts__item-text lng-undrej2">
+                    ПН-СБ 10:00-19:00
+                  </div>
                 </div>
                 <div class="contacts__soc mb-1">
                   <a href=""><img src="./img/icons/telegram.svg" alt="" /></a>
@@ -242,7 +233,7 @@
 
         <section class="gallery page__section">
           <div class="container">
-            <h2 class="page__title">галерея</h2>
+            <h2 class="page__title lng-galar">галерея</h2>
             <div class="gallery__wrapper">
               <img src="./img/gallery/1.jpg" alt="" />
               <img src="./img/gallery/2.jpg" alt="" />
@@ -266,7 +257,9 @@
               <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                 <div class="bottom__contact">
                   <img src="./img/icons/location.svg" alt="" />
-                  <span>Ташкент, улица М. Гафурова, 16/1 </span>
+                  <span class="lng-undadres1"
+                    >Ташкент, улица М. Гафурова, 16/1
+                  </span>
                 </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-12 col-12">
@@ -278,7 +271,7 @@
               <div class="col-lg-3 col-md-4 col-sm-12 col-12">
                 <div class="bottom__contact">
                   <img src="./img/icons/calendar.svg" alt="" />
-                  <span>ПН-СБ 10:00-19:00</span>
+                  <span class="lng-undrej1">ПН-СБ 10:00-19:00</span>
                 </div>
               </div>
             </div>
@@ -289,7 +282,7 @@
       <footer class="footer">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-12 col-md-6 col-xl-6">
+            <div class="col-12 col-md-6 col-xl-6 lng-prav">
               COPYRIGHT © 2021 TRUE BARBER. ВСЕ ПРАВА ЗАЩИЩЕНЫ
             </div>
             <div class="col-12 col-md-6 col-xl-6">
