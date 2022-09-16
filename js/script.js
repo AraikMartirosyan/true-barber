@@ -125,27 +125,27 @@ const langArr = {
     ru: "ГАЛЕРЕЯ",
   },
   model: {
-    uz: "MODELNI KITOB QILING",
+    uz: "MODELGA AYLANISH",
     ru: "ЗАПИСАТЬСЯ МОДЕЛЬЮ",
   },
 
   //title
   title: {
-    uz: "Sartaroshlik kurslari <br /> Toshkentda",
+    uz: "Barberlik kurslari <br /> Toshkentda",
     ru: "Курсы барберинга <br /> в Ташкенте",
   },
   subtitle: {
-    uz: "Talab qilingan kasbni egallash <br /> va boshlash uchun ajoyib imkoniyat",
+    uz: "Qabul qilish uchun ajoyib <br /> imkoniyat kasb va ishga kirishni talab qildi", 
     ru: "Отличная возможность получить <br /> востребованную профессию и приступить к работе",
   },
   titlebtn: {
-    uz: "Ro'yxatdan o'ting",
+    uz: "Ro'yhatdan o'tish",
     ru: "ЗАПИСАТЬСЯ НА КУРСЫ",
   },
 
   //underinfo
   undadres: {
-    uz: "Toshkent shahri, M.G'ofurov ko'chasi, 16/1",
+    uz: "Toshkent, M.G'ofurov ko'chasi, 16/1",
     ru: "Ташкент, улица М. Гафурова, 16/1",
   },
   undrej: {
@@ -161,7 +161,7 @@ const langArr = {
     ru: "ПН-СБ 10:00-19:00",
   },
   undadres2: {
-    uz: "Toshkent shahri, M.G'ofurov ko'chasi, 16/1",
+    uz: "Toshkent, M.G'ofurov ko'chasi, 16/1",
     ru: "Ташкент, улица М. Гафурова, 16/1",
   },
   undrej2: {
@@ -175,21 +175,21 @@ const langArr = {
     ru: "О НАС",
   },
   aboutt1: {
-    uz: "Biz mukofotga sazovor bo&#39;lgan sartarosh tayyorlash akademiyasimiz. Biz o&#39;quvchilarimiz ishonch bilan ketishini ta&#39;minlashga intiling olingan ko&#39;nikmalar.",
+    uz: "Biz mukofotga sazovor bo&#39;lgan sartarosh tayyorlash akademiyamiz. Biz o&#39;quvchilarimiz olgan ko&#39;nikmalariga ishonch bilan ketishlarini ta&#39;minlashga harakat qilamiz.",
     ru: "Мы - академия по обучению барберов, удостоенная наград. Мы стремимся к тому, чтобы наши студенты уходили с уверенностью в приобретенных навыках.",
   },
   aboutt2: {
-    uz: "Bizning sartarosh va soch oldirish kurslarimiz sizga asosiy bilimlarni olishga yordam beradi sartaroshlik sohasida har birini tahlil qiling qadam, texnikani takomillashtirish va soch kesish tezligini oshirish.",
+    uz: "Bizning kurslarimiz sizga barberlik bo&#39;yicha asosiy bilimlarni olishga, har bir qadamni tahlil qilishga, texnikangizni takomillashtirishga va soch olishni tezlashtirishga yordam beradi.",
     ru: "Наши курсы барбера и бритья помогут вам получить базовые знания в области парикмахерского искусства, проанализировать каждый шаг усовершенствовать технику и повысить скорость стрижки.",
   },
 
   //features
   fea1tit: {
-    uz: "Professionallik",
+    uz: "Professionalizm",
     ru: "Профессионализм",
   },
   fea1tex: {
-    uz: "Siz erkaklar uchun dunyo va mualliflik texnikasini o&#39 zlashtirasiz sochlar va soqollarni shakllantirish",
+    uz: "Siz erkaklar sartaroshligi va soqolini bo'yash bo'yicha jahon va mualliflik texnikasini o'zlashtirasiz",
     ru: "Вы будете владеть мировыми и авторскими техниками мужских стрижек и оформления бороды",
   },
 
@@ -198,7 +198,7 @@ const langArr = {
     ru: "Мы предоставляем",
   },
   fea2tex: {
-    uz: "Professional jihozlangan joy, sarf materiallari va mashg'ulotlar uchun modellar",
+    uz: "O'qitish uchun professional jihozlangan joy, materiallar va modellar",
     ru: "Профессионально оборудованное место, расходные материалы и моделей для обучения",
   },
 
@@ -207,8 +207,8 @@ const langArr = {
     ru: "Практика",
   },
   fea3tex: {
-    uz: "O&#39;qitishning 80% namunalar bo'yicha amaliyotdir. Zerikarli ma'ruzalar yo'q va blanklar, jonli modellarda ishlash.",
-    ru: "80% обучения - практика на моделях. Никаких скучных лекций и болванок, работа на живых моделях.",
+    uz: "Treningning 80% modellar bo'yicha mashqdir. Zerikarli ma'ruzalar o'rniga, jonli modellar ustida ishlash.",
+    ru: "80% обучения - практика на моделях. Вместо скучных лекций, работа на живых моделях.",
   },
 
   //kursy
@@ -218,7 +218,7 @@ const langArr = {
     ru: "Курсы",
   },
   kurtex: {
-    uz: "TRUE BARBER kurslari o'qitish uchun maxsus mo'ljallangan zamonaviy va an'anaviy sartaroshlik mahoratlari. Bizning kurslarimiz tajribasi kam yoki umuman bo'lmaganlar uchun ideal sochlar va ular qanday ko'rinishi mumkinligini his qilishni xohlaydi sartarosh sifatida martaba, shuningdek, turli xil texnikalar, uslublarga qarash va tendentsiyalari. erkaklar sochlarida. Biz barchani kutib olamiz! Bugun biz bilan bog'laning!",
+    uz: "TRUE BARBER kurslari maxsus zamonaviy va an'anaviy sartaroshlik mahoratini o'rgatish uchun mo'ljallangan.  Bizning kurslarimiz soch olish tajribasi kam yoki umuman bo'lmaganlar uchun juda mos keladi va ular sartaroshlik kasbining ko'rinishini, shuningdek, turli texnika, uslub va tendentsiyalarni ko'rishlari mumkin.  Hammani kutib qolamiz! Iloji boricha tezroq biz bilan bog'laning!",
     ru: "Курсы от TRUE BARBER специально разработаны для обучения современным и традиционным навыкам барбера. Наши курсы идеально подходят для тех, кто практически не имеет опыта стрижки волос и хочет почувствовать, как может выглядеть их карьера барбера, а также взглянуть на различные техники, стили и тенденции. в мужских волосах. Мы приветствуем всех желающих! Свяжитесь c нами сегодня!",
   },
 
@@ -229,11 +229,11 @@ const langArr = {
 
 
   pretit1: {
-    uz: "Biz sizga qanday qilib qirqishni, tarashni o'rgatamiz;",
+    uz: "Biz sizga qanday soch qirqishni, soqol olishni o'rgatamiz;",
     ru: "Научим стричь, брить;",
   },
   pretit2: {
-    uz: "Sizga mijozlar bilan qanday aloqa qilishni o'rgatamiz;",
+    uz: "Biz sizga mijozlar bilan muloqot qilishni o'rgatamiz;",
     ru: "Научим как общаться с клиентами;",
   },
   pretit3: {
@@ -245,7 +245,7 @@ const langArr = {
     ru: "Получите диплом от нашей академии;",
   },
   pretit5: {
-    uz: "Pro-ga aylaning.",
+    uz: "Professional bo'ling.",
     ru: "Станете профессионалом.",
   },
 
@@ -285,7 +285,7 @@ function changeLanguage() {
   let hash = window.location.hash;
   hash = hash.substr(1);
   if (!allLang.includes(hash)) {
-    location.href = window.location.pathname + "#uz";
+    location.href = window.location.pathname + "#ru";
     location.reload();
   }
   select.value = hash;
